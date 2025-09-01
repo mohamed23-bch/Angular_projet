@@ -1,0 +1,15 @@
+  <h1 id="h" class="text-center mt-5 text-light">HEROO</h1>
+        <div class="row ">
+           <div class="col-3" >
+             <input type="text" class="form-control" [(ngModel)]="hero.name">
+           </div>
+       
+           <div class="col-3">
+              <input type="text" class="form-control" [(ngModel)]="hero.power">
+           </div>
+           <div class="col-3">
+              <input type="text" class="form-control" [(ngModel)]="hero.image_url">
+           </div>
+            <div class="col-3">
+              <button type="button" class="btn form-control" (click)="change()"> Create</button>
+           </div>
